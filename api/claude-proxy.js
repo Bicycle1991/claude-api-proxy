@@ -1,7 +1,7 @@
 // api/claude-proxy.js
 // This function securely calls the Claude API and returns results to your Lovable frontend
 
-module.exports = async (req, res) => {
+export default async function handler(req, res) {
   // Only allow POST requests
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
