@@ -1,9 +1,8 @@
 {
   "version": 2,
   "functions": {
-    "api/claude-proxy.js": {
-      "memory": 1024,
-      "maxDuration": 60
+    "api/**/*.js": {
+      "runtime": "nodejs18.x"
     }
   }
 }
