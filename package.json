@@ -1,5 +1,4 @@
 {
   "name": "claude-api-proxy",
-  "version": "1.0.0",
-  "description": "Secure Claude API proxy for Lovable frontend",
+  "version": "1.0.0"
 }
