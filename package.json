@@ -1,0 +1,12 @@
+{
+  "name": "claude-api-proxy",
+  "version": "1.0.0",
+  "description": "Secure Claude API proxy for Lovable frontend",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy"
+  },
+  "dependencies": {
+    "vercel": "^latest"
+  }
+}
